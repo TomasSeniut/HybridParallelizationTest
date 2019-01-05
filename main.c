@@ -5,7 +5,7 @@
 #include "queue.h"
 
 int main(int argc, char** argv) {
-    //simpleMPITest();
+    simpleMPITest();
     //sendStruct();
     //notifyProcesses();
     //testQueue();
