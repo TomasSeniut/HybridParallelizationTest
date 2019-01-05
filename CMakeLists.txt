@@ -15,5 +15,5 @@ SET(CMAKE_CXX_COMPILER mpicxx)
 
 set(SOURCE_FILES main.c)
 
-add_executable(HybridParallelization main.c simpleTest.c test.h jobShare.c notifyProcesses.c queue.c queue.h testQueue.c)
+add_executable(HybridParallelization main.c simpleTest.c test.h jobShare.c notifyProcesses.c queue.c queue.h testQueue.c IO.c IO.h)
 
